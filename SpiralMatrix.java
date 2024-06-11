@@ -27,10 +27,10 @@ public class SpiralMatrix {
                 }
                 System.out.print(matrix[i][startCol]+" ");
             }
-            startRow++;
             startCol++;
-            endRow++;
-            endCol++;
+            startRow++;
+            endCol--;
+            endRow--;
         }
         System.out.println();
     
